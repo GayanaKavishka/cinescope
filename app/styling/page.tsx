@@ -1,5 +1,5 @@
 import Footer from "@/components/layout/footer"
-import Header from "@/components/layout/header"
+import Header from "@/components/layout/main-nav"
 import Link from "next/link"
 
 export default function FlexOnePage(){
@@ -16,6 +16,10 @@ export default function FlexOnePage(){
                     <div className="size-40 border-primary border p-4 ">Token 01</div>
                     <div className="size-40 bg-primary p-4">Token 01</div>
                     <div className="size-40 outline-primary outline-4 p-4">Token 01</div>
+                    <div className="relative size-40 border border-primary">
+                        <div className="text-sm">position(relative/absolute)</div>
+                        <div className="size-16 bg-purple-300 absolute bottom-2 right-5 z-10"></div>
+                    </div>
                     
                 </div>
 
