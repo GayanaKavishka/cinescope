@@ -20,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         geistSans.variable,
         geistMono.variable,
         inter.variable,
-        inter.className,
+        //inter.className,
       )}
     >
       <body className="min-h-full flex flex-col relative">{children}</body>
